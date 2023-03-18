@@ -1,0 +1,32 @@
+.coursesBody{
+    padding: 0;
+    margin:0;
+}
+.coursesConteiner{
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    text-align: center;
+}
+.paginationConteiner{
+    grid-area: les;
+    display: flex;
+    justify-content: center;
+    /* margin-bottom: 8px; */
+    align-items: center;
+}
+.paginationConteiner span{
+    display: flex;
+    margin-right: 30px;
+    font-size: 2.5rem;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;  
+}
+.paginationConteiner span:hover{
+    color: rgba(58, 208, 17, 0.375);
+}
+.selectedPage{
+    color: rgba(58, 208, 17, 0.375);
+}

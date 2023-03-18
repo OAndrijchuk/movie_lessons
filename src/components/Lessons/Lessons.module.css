@@ -1,0 +1,30 @@
+.lessonsContainer{
+    display: grid;
+    grid-template-areas: 
+    'video'
+    'links';
+    grid-template-rows: 3fr 1fr;
+    grid-template-columns: 1fr;
+}
+.lessonsLinksConteiner{
+    grid-area: links;
+}
+.lessonsLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.lessonsLinksConteiner a{
+    text-decoration: none;
+    color: white;
+    /* border: 3px solid rgb(58, 208, 17, 0.375); */
+}
+.lessonsLinksConteiner a:hover{
+    border-bottom: 2px solid rgb(58, 208, 17, 0.375);
+    color: rgb(58, 208, 17, 0.375);
+}
+.lessonsVideoConteiner{
+    width: 100%;
+    background-color: bisque;
+}

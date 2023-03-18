@@ -1,0 +1,70 @@
+.body{
+    border: 3px solid rgba(58, 208, 17, 0.375) ;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.coursLinkActiv{
+    text-decoration: none;
+    color: white;
+}
+.coursLinkActiv:hover{
+    color: rgba(58, 208, 17, 0.375);
+}
+.coursLinkUnActiv{
+    text-decoration: none;
+    color: rgb(169, 169, 169);
+    pointer-events: none;
+}
+.coursLinkUnActiv:hover{
+    color: rgb(169, 169, 169);
+}
+.coursContent{
+    display: grid;
+    grid-template-areas: 
+    "img info";
+    grid-template-columns: 1fr 1.5fr;
+      
+}
+
+.InfoContainer{
+    font-size: 10px;
+    grid-area: info;
+    padding: 5px;
+}
+.InfoContainer ul{
+    margin: 0;
+}
+
+.imgContainer{
+    grid-area:img;
+    background-color: rgba(0, 0, 0, 0.719);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    
+}
+.Info{
+    align-items: center;
+    display: grid;
+    grid-template-areas: 
+    "title title title"
+    "skil skil lesCount"
+    "skil skil ratin";
+}
+.title{
+    grid-area: title;
+    text-align: center;
+}
+.numbLess{
+    grid-area: lesCount;
+}
+.skil{
+    grid-area: skil;
+
+}
+.ratin{
+    grid-area: ratin;
+}
